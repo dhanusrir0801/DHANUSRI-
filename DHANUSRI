@@ -1,36 +1,120 @@
 # 👩‍💻 DHANUSRI R 
 
-> "Code. Learn. Improve. Repeat."
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanusri R | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
----
+<body>
 
-## 🎓 About
-I'm a first-year college student who is just starting my journey in the world of technology.  
-I enjoy learning new things and improving my skills step by step.
+<header>
+    <h1>Dhanusri R</h1>
+    <p>Student | Aspiring Software Developer</p>
+</header>
 
----
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-## 🚀 What I'm Doing
-- 📘 Learning programming basics  
-- 🔍 Exploring Git & GitHub  
-- 🌐 Trying simple web development  
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate student interested in software development,
+        web technologies, and problem solving. I aim to build innovative
+        solutions and continuously improve my technical skills.
+    </p>
+</section>
 
----
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>HTML & CSS</li>
+        <li>GitHub</li>
+        <li>Problem Solving</li>
+    </ul>
+</section>
 
-## 💡 Interests
-- Software Development  
-- Creative Design  
-- Problem Solving  
+<section id="projects">
+    <h2>Projects</h2>
 
----
+    <div class="project">
+        <h3>Student Management System</h3>
+        <p>Application to manage student records efficiently.</p>
+    </div>
 
-## 🛠️ Tools I Use
-- 💻 VS Code  
-- 🌐 Google Chrome  
-- 🔧 GitHub  
+    <div class="project">
+        <h3>GitHub Activity Project</h3>
+        <p>Version control and repository management using GitHub.</p>
+    </div>
 
----
+</section>
 
-## 📊 Current Focus
-```text
-Learning → Practicing → Improving → Building
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yourmail@email.com</p>
+    <p>GitHub: github.com/yourusername</p>
+</section>
+
+<footer>
+    <p>© 2026 Dhanusri R | Portfolio</p>
+</footer>
+
+</body>
+</html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #555;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+.project {
+    background: #eee;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px;
+}
